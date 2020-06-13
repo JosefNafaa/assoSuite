@@ -1,0 +1,25 @@
+.marge {
+    margin-left: 3em;
+    }
+.custom{
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        border-radius: 0px !important;
+}
+.table{
+    margin-top: 2em;
+    margin-left: -2em;
+}
+#cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+}
+
+#cercle_red {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: red;
+}

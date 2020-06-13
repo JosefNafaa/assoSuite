@@ -1,0 +1,127 @@
+<div class="navbarPosition"><app-navbar>
+</app-navbar>
+</div>
+<br>
+
+<div class="row body">
+   <div class="col-lg-2" >
+     <app-sidebar></app-sidebar>
+   </div>
+   <div class="col-lg-10">
+      
+
+<div class="container">
+	<div class="row">
+        <div>
+        <button id="btnFA"    class="btn btn-success btn-lg" (click)="addAdherant" >
+            Ajouter un adhérant
+            <i class="fa fa-user-plus" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div class="marge"> 
+      <a id="btnFA" class="btn btn-success btn-lg" >
+        Test
+        <i class="fa fa-user-plus" aria-hidden="true"></i>
+      </a>
+      </div>
+<div class="marge">
+        <button id="btnFA"  class="btn btn-outline-info btn-lg" >
+               Gérer les groupes
+                <i class="fa fa-users" aria-hidden="true"></i>
+        </button>
+    </div>	
+  
+    <div class="marge">
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            <div class="input-group-append">
+              <button class="btn btn-outline-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rechercher par :</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Nom d'adhérant</a>
+                <a class="dropdown-item" href="#">Prénom d'adhérant</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </div>
+	</div>  
+</div>
+
+
+<div class="container">
+     
+   
+        <table class="table">
+            <thead class="thead table-info">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Prénom</th>
+                <th scope="col">Email</th>
+                <th>Statut</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>
+                    <button id="btnFA"    class="btn  btn-lg" >
+                        
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </button>
+                </td>
+                <td> <div id="cercle" ></div></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td> <button id="btnFA"    class="btn  btn-lg" >
+                        
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </button></td>
+                <td>  <div id="cercle_red" ></div></td>
+                <td></td>
+              </tr>
+              
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>  
+                <td> 
+                    <button id="btnFA"    class="btn  btn-lg" >
+                        
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </button>
+                </td>
+                
+
+                <td>
+                    <div id="cercle" ></div>
+                </td>
+                <td>
+                  <button id="btnFA"    class="btn  btn-lg" >
+                  <i class="icon-trash"></i>       
+                </button>
+                    <button id="btnFA"    class="btn  btn-lg" >
+                        
+                      <i class="fa fa-eye" aria-hidden="true"></i>
+                  </button>
+
+              
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+    
+
+</div>
+                                                      
+</div>
+</div>
